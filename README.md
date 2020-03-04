@@ -8,7 +8,7 @@ sistemasprogramables-kamikaze created by GitHub Classroom
 
 | Nombre | Participacion | Calificación |
 |-------------|----------------|--------------|
-| d           |                |              | 
+| Acevedo Cardona Adelaid Lesdeymariet           |                |              | 
 | d           |                |              | 
 | d           |                |              | 
 | d           |                |              | 
