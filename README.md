@@ -13,7 +13,7 @@ sistemasprogramables-kamikaze created by GitHub Classroom
 | Gallardo Dueñas Carlos Ivan          | KY-012 Sensor Zumbador Activo |              | 
 | d                                    |                               |              | 
 
-# KY-037 Módulo de sensor de micrófono (alta sensibilidad)
+# Módulo KY-037 Sensor de micrófono (alta sensibilidad)
 
 ![alt text](http://sensorkit.en.joy-it.net/images/8/8e/ky-037.jpg "KY-037 Microphone sensor module (high sensitivity)")
 
