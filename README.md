@@ -53,3 +53,8 @@ Conecte la señal (S) al pin 8 del Arduino y tierra (-) a GND. Tenga en cuenta q
 | -      | GND     |
 
 ![alt text](https://arduinomodules.info/wp-content/uploads/Arduino_KY-012_Keyes_Active_buzzer_module_connection_diagram.png "KY-012 diagrama de conexion")
+
+## CÓDIGO DE EJEMPLO KY-012
+El siguiente Arduino Sketch activará y desactivará continuamente el zumbador, generando una serie de pitidos cortos y agudos.
+
+| int buzzerPin = 8;   void setup ()  {  pinMode (buzzerPin, OUTPUT);  }   void loop ()  {  digitalWrite (buzzerPin, HIGH);  delay (500);  digitalWrite (buzzerPin, LOW);  delay (500);  } |
