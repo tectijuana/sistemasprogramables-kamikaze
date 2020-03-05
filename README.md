@@ -9,7 +9,7 @@ sistemasprogramables-kamikaze created by GitHub Classroom
 | Nombre                               | Participacion                 | Calificación |
 |--------------------------------------|-------------------------------|--------------|
 | Acevedo Cardona Adelaid Lesdeymariet |                               |              | 
-| Encarnacion Ocampo Gustavo           | Módulo de sensor de micrófono |              | 
+| Encarnacion Ocampo Gustavo           | KY-037 Módulo de sensor de micrófono |              | 
 | Gallardo Dueñas Carlos Ivan          | KY-012 Sensor Zumbador Activo |              | 
 | d                                    |                               |              | 
 
