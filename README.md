@@ -59,7 +59,7 @@ Conecte la señal (S) al pin 8 del Arduino y tierra (-) a GND. Tenga en cuenta q
 El siguiente Arduino Sketch activará y desactivará continuamente el zumbador, generando una serie de pitidos cortos y agudos.
 
 ---
-
+```arduino
  int buzzerPin = 8;   
  void setup ()  
    {  pinMode (buzzerPin, OUTPUT);  }  
@@ -70,4 +70,4 @@ El siguiente Arduino Sketch activará y desactivará continuamente el zumbador, 
    digitalWrite (buzzerPin, LOW);  
    delay (500);  
    } 
- 
+ ```
