@@ -17,6 +17,9 @@ sistemasprogramables-kamikaze created by GitHub Classroom
 
 ![alt text](http://sensorkit.en.joy-it.net/images/8/8e/ky-037.jpg "KY-037 Microphone sensor module (high sensitivity)")
 
+## ¿Qué es el sensor KY-037?
+Este módulo Ky-037 Sensor De Sonido permite detectar cualquier tipo de sonido superior al rango ajustado por el potenciómetro que lleva este. También permite obtener dos salidas, una análoga, que lleva toda la información que está detectando el micrófono y una digital que es una salida de encendido o apagado que se activa cuando el sonido supera un cierto volumen establecido por el potenciómetro.
+
 ## Datos técnicos 
 **Salida digital:** Puede usar un potenciómetro para configurar un valor extremo para el sonic. Si el valor excede el valor extremo, enviará una señal a través de la salida digital.
 
@@ -24,6 +27,20 @@ sistemasprogramables-kamikaze created by GitHub Classroom
 
 **LED1:** Muestra que el sensor recibe voltaje.
 **LED2:** Muestra que se detectó un campo magnético.
+
+## ESPECIFICACIONES TÉCNICAS.
+
+1.Modelo: KY-037
+2.Voltaje de funcionamiento: 5 Volts
+3.Salidas: Analógica y digital
+4.Permite ajustar un nivel de umbral de salida
+5.Usa el Micrófono Gao Gan grado, de alta sensibilidad.
+6.Tiene un indicador LED de encendido
+7.Tiene un LED que indica la salida del comparador
+8.Interruptor digital salida (0 / 1)
+9.Temperatura: -40 a +85 °C
+10.Dimensiones: 35 x 15 x 14 mm
+11.Peso: 4 gr
 
 ## Pinout
 ![alt text](http://sensorkit.en.joy-it.net/images/d/d8/4_dig_V_G_An_eng.png "pinout")
