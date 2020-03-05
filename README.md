@@ -1,4 +1,4 @@
-# sistemasprogramables-kamikaze
+# Sistemas Programables - Equipo Kamikaze
 
 <img src="https://images.cooltext.com/5387875.png" width="921" height="115" alt=" Sensores de sonido: micrófono" />
 
