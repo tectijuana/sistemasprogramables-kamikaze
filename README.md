@@ -318,7 +318,7 @@ Conecte la señal (S) al pin 8 en el Arduino y la tierra (-) a GND. El pin centr
 | Modulo Vcc+   | Pin 1  |
 | Sensor GND    |  GND   |
 
-![alt text](https://cdn.thegeekpub.com/wp-content/uploads/2019/05/KY-006-passive-piezo-buzzer-wiring-diagram-Raspberry-Pi.jpg)")
+![alt text](https://cdn.thegeekpub.com/wp-content/uploads/2019/05/KY-006-passive-piezo-buzzer-wiring-diagram-Raspberry-Pi.jpg)
 
 ## CÓDIGO DE EJEMPLO KY-006 EN ARDUINO 
 
