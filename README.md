@@ -671,3 +671,27 @@ pwm.start(50)
         for GPFrequency in range(5000):
             pwm.ChangeFrequency(GPFrequency)
  ```
+# Linkografía 
+&nbsp;
+[Sensor Kit x40](http://sensorkit.en.joy-it.net/index.php?title=Main_Page)
+
+&nbsp;
+[The Geek Pub - List of Arduino and Raspberry Pi Sensors / Modules](https://www.thegeekpub.com/wiki/list-of-arduino-sensors-and-modules/)
+
+&nbsp;
+[Electro Geek Shop - Kit de 37 Sensores para Arduino y Raspberry Pi](https://www.electrogeekshop.com/kit-de-37-sensores-de-arduino-raspberry-ky-005ky-0010-segunda-parte/)
+
+&nbsp;
+[Arduino Modules](https://arduinomodules.info/)
+
+&nbsp;
+[Raspberry Pi Sensors - Overview 50 Important Components](https://tutorials-raspberrypi.com/raspberry-pi-sensors-overview-50-important-components/)
+
+&nbsp;
+[Sun Founder - Lesson 19: Sound Sensor ](https://www.sunfounder.com/learn/lesson-19-sound-sensor-sensor-kit-v2-0-for-b-plus.html)
+
+&nbsp;
+[Instructables - Raspberry Pi: Sound Sensor](https://www.instructables.com/id/Sound-Sensor-Raspberry-Pi/)
+
+&nbsp;
+[CDMX Electrónica - Sensores KYs](https://www.cdmxelectronica.com/categoria-producto/sensores/keyes/)
