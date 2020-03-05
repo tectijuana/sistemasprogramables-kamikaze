@@ -19,10 +19,10 @@ sistemasprogramables-kamikaze created by GitHub Classroom
 ![alt text](http://sensorkit.en.joy-it.net/images/8/8e/ky-037.jpg "KY-037 Microphone sensor module (high sensitivity)")
 
 ## Datos técnicos 
-** Salida digital: ** Puede usar un potenciómetro para configurar un valor extremo para el sonic. Si el valor excede el valor extremo, enviará una señal a través de la salida digital.
+**Salida digital:** Puede usar un potenciómetro para configurar un valor extremo para el sonic. Si el valor excede el valor extremo, enviará una señal a través de la salida digital.
 
-** Salida analógica: ** Señal directa del micrófono como valor de voltaje.
+**Salida analógica:** Señal directa del micrófono como valor de voltaje.
 
-** LED1: ** Muestra que el sensor recibe voltaje.
-** LED2: ** Muestra que se detectó un campo magnético.
+**LED1:** Muestra que el sensor recibe voltaje.
+**LED2:** Muestra que se detectó un campo magnético.
 
