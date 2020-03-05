@@ -10,7 +10,7 @@ sistemasprogramables-kamikaze created by GitHub Classroom
 |-------------|----------------|--------------|
 | Acevedo Cardona Adelaid Lesdeymariet           |                |              | 
 | Encarnacion Ocampo Gustavo           |                |              | 
-| d           |                |              | 
+| Gallardo Dueñas Carlos Ivan           |                |              | 
 | d           |                |              | 
 | d           |                |              | 
 
@@ -24,6 +24,5 @@ sistemasprogramables-kamikaze created by GitHub Classroom
 **Salida analógica:** Señal directa del micrófono como valor de voltaje.
 
 **LED1:** Muestra que el sensor recibe voltaje.
-
 **LED2:** Muestra que se detectó un campo magnético.
 
