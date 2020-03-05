@@ -61,7 +61,7 @@ Conecte la señal (S) al pin 8 del Arduino y tierra (-) a GND. Tenga en cuenta q
 
 ![alt text](https://arduinomodules.info/wp-content/uploads/Arduino_KY-012_Keyes_Active_buzzer_module_connection_diagram.png "KY-012 diagrama de conexion")
 
-## CÓDIGO DE EJEMPLO KY-012 
+## CÓDIGO DE EJEMPLO KY-012 EN ARDUINO 
 
 El siguiente Arduino Sketch activará y desactivará continuamente el zumbador, generando una serie de pitidos cortos y agudos.
 
@@ -78,4 +78,33 @@ El siguiente Arduino Sketch activará y desactivará continuamente el zumbador, 
    digitalWrite (buzzerPin, LOW);  
    delay (500);  
    } 
+ ```
+## CÓDIGO DE EJEMPLO KY-012 EN RASPBERRY PI
+En este ejemplo, verá cómo, con un pin de salida definido, el zumbador estará encendido durante 4 segundos y luego estará apagado durante 2 segundos.
+
+```python
+import RPi.GPIO as GPIO
+import time
+    
+GPIO.setmode(GPIO.BCM)
+    
+# Output pin declaration for the Buzzer.
+Buzzer_PIN = 24
+GPIO.setup(Buzzer_PIN, GPIO.OUT, initial= GPIO.LOW)
+    
+print ("Buzzer-test [press ctrl+c to end the test]")
+   
+# Main program loop
+try:
+        while True:
+            print("Buzzer will be on for 4 seconds")
+            GPIO.output(Buzzer_PIN,GPIO.HIGH) #Buzzer will be switched on
+            time.sleep(4) #Waitmode for 4 seconds
+            print("Buzzer wil be off for 4 seconds") 
+            GPIO.output(Buzzer_PIN,GPIO.LOW) #Buzzer will be switched off 
+            time.sleep(2) #Waitmode for another 2 seconds in which the buzzer will be off
+    
+# Scavenging work after the end of the program
+except KeyboardInterrupt:
+        GPIO.cleanup()
  ```
