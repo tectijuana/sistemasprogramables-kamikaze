@@ -29,3 +29,15 @@ sistemasprogramables-kamikaze created by GitHub Classroom
 ## Pinout
 ![alt text](http://sensorkit.en.joy-it.net/images/d/d8/4_dig_V_G_An_eng.png "pinout")
 
+The KY-012 Active Buzzer module consists of an active piezoelectric buzzer, it generates a sound of aproximately 2.5kHz when signal is high. 
+| Operating Voltage    | 3.5V ~ 5.5V                       |
+|----------------------|-----------------------------------|
+| Maximum Current      | 30mA / 5VDC                       |
+| Resonance Frequency  | 2500Hz ± 300Hz                    |
+| Minimum Sound Output | 85Db @ 10cm                       |
+| Working Temperature  | -20°C ~ 70°C [-4°F ~ 158°F]       |
+| Storage Temperature  | -30°C ~ 105°C [-22°F ~ 221°F]     |
+| Dimensions           | 18.5mm x 15mm [0.728in x 0.591in] |
+
+
+
