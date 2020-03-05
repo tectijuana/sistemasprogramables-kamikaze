@@ -232,6 +232,8 @@ Conecte la señal (S) al pin 8 del Arduino y tierra (-) a GND. Tenga en cuenta q
 |---------------|----------|--------|
 | Sensor [+V]   | = 3.3V   | Pin 1  |
 | Sensor GND    | = GND    | Pin 6  |
+
+
 ![alt text](https://arduinomodules.info/wp-content/uploads/Arduino_KY-012_Keyes_Active_buzzer_module_connection_diagram.png "KY-012 diagrama de conexion")
 
 ## ¿Qué es un buzzer o zumbador?
