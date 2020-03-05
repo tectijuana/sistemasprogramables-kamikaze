@@ -27,5 +27,5 @@ sistemasprogramables-kamikaze created by GitHub Classroom
 **LED2:** Muestra que se detectó un campo magnético.
 
 ## Pinout
-![alt text](http://sensorkit.en.joy-it.net/images/d/de/sens-poti.jpg "sens-poti")
+![alt text](http://sensorkit.en.joy-it.net/images/d/d8/4_dig_V_G_An_eng.png "pinout")
 
