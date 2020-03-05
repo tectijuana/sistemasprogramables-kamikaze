@@ -296,3 +296,75 @@ try:
 except KeyboardInterrupt:
         GPIO.cleanup()
  ```
+# Modulo KY-006 Sensor Zumbador Pasivo
+![alt text](https://arduinomodules.info/wp-content/uploads/KY-006_passive_buzzer_arduino_module.jpg)")
+
+Este modulo consiste en un zumbador piezoeléctrico pasivo, puede generar tonos entre 1.5 a 2.5 kHz al encenderlo y apagarlo a diferentes frecuencias, ya sea mediante retardos o PWM
+
+| Tensión de funcionamiento      | 1.5V ~ 15V DC                       |
+|--------------------------------|-----------------------------------|
+| Rango de generacion de tonos   | 1.5 ~ 2.5kHz                      |
+| Dimensiones                    | 18.5mm x 15mm [0.728in x 0.591in] |
+
+## Diagrama de conexión KY-006
+Conecte la señal (S) al pin 8 en el Arduino y la tierra (-) a GND. El pin central no se usa.
+
+![alt text](http://arduinomodules.info/wp-content/uploads/Arduino_KY-006_Keyes_Passive_buzzer_module_connection_diagram.png)")
+
+## Raspberry Pi
+
+| Modulo Signal | Pin 18 |
+|---------------|--------|
+| Modulo Vcc+   | Pin 1  |
+| Sensor GND    |  GND   |
+
+![alt text](https://cdn.thegeekpub.com/wp-content/uploads/2019/05/KY-006-passive-piezo-buzzer-wiring-diagram-Raspberry-Pi.jpg)")
+
+## CÓDIGO DE EJEMPLO KY-006 EN ARDUINO 
+
+El siguiente boceto Arduino generará dos tonos diferentes encendiendo y apagando el zumbador KY-006 a diferentes frecuencias
+
+
+```c++
+ int buzzer = 8; 
+ // set the buzzer control digital IO pin    
+ void setup() {  pinMode(buzzer, OUTPUT); // set pin 8 as output  }   
+ void loop() {  for (int i = 0; i < 80; i++) 
+ {  // make a sound   
+ digitalWrite(buzzer, HIGH); 
+ // send high signal to buzzer   
+ delay(1); 
+ // delay 1ms   
+ digitalWrite(buzzer, LOW); 
+ // send low signal to buzzer   
+ delay(1);  }  
+ delay(50);  
+ for (int j = 0; j < 100; j++) { //make another sound   
+ digitalWrite(buzzer, HIGH);
+ delay(2); // delay 2ms   
+ digitalWrite(buzzer, LOW); 
+ delay(2); 
+ }  delay(100);  }  
+ ```
+ 
+ ## CÓDIGO DE EJEMPLO KY-006 EN RASPBERRY PI
+ El siguiente codigo de ejmplo crea una señal de alarma clasica en el buzzer ciclando los tonos arriba y abajo. 
+ 
+ ```python
+# import modules
+import RPi.GPIO as GPIO
+GPIO.setmode(GPIO.BCM)
+  
+# define the pin we will attach to
+GPIO_PIN = 18
+GPIO.setup(GPIO_PIN, GPIO.OUT)
+ 
+# start at 50 hertz 
+GPFrequency = 50
+pwm = GPIO.PWM(GPIO_PIN, GPFrequency)
+pwm.start(50)
+ 
+    while(True):
+        for GPFrequency in range(5000):
+            pwm.ChangeFrequency(GPFrequency)
+ ```
