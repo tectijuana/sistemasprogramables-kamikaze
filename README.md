@@ -28,6 +28,13 @@ sistemasprogramables-kamikaze created by GitHub Classroom
 ## Pinout
 ![alt text](http://sensorkit.en.joy-it.net/images/d/d8/4_dig_V_G_An_eng.png "pinout")
 
+## Funcionalidad del sensor.
+El sensor tiene 3 componentes principales en su placa de circuito. Primero, la unidad de sensor en la parte frontal del módulo que mide el área físicamente y envía una señal analógica a la segunda unidad, el amplificador. El amplificador amplifica la señal, de acuerdo con el valor resistente del potenciómetro, y envía la señal a la salida analógica del módulo.
+El tercer componente es un comparador que apaga la salida digital y el LED si la señal cae por debajo de un valor específico.
+Puede controlar la sensibilidad ajustando el potenciómetro.
+![alt text](http://sensorkit.en.joy-it.net/images/d/de/sens-poti.jpg "fun-sen")
+
+
 # Modulo KY-012 Sensor Zumbador Activo
 
 ![alt text](https://ae01.alicdn.com/kf/Ha4027ff59c964f6395e5110879dd4ac7R.jpg "KY-012 Sensor Zumbador Activo")
