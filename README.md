@@ -297,7 +297,7 @@ except KeyboardInterrupt:
         GPIO.cleanup()
  ```
 # Modulo KY-006 Sensor Zumbador Pasivo
-![alt text](https://arduinomodules.info/wp-content/uploads/KY-006_passive_buzzer_arduino_module.jpg)")
+![alt text](https://arduinomodules.info/wp-content/uploads/KY-006_passive_buzzer_arduino_module.jpg)
 
 Este modulo consiste en un zumbador piezoeléctrico pasivo, puede generar tonos entre 1.5 a 2.5 kHz al encenderlo y apagarlo a diferentes frecuencias, ya sea mediante retardos o PWM
 
@@ -309,7 +309,7 @@ Este modulo consiste en un zumbador piezoeléctrico pasivo, puede generar tonos 
 ## Diagrama de conexión KY-006
 Conecte la señal (S) al pin 8 en el Arduino y la tierra (-) a GND. El pin central no se usa.
 
-![alt text](http://arduinomodules.info/wp-content/uploads/Arduino_KY-006_Keyes_Passive_buzzer_module_connection_diagram.png)")
+![alt text](http://arduinomodules.info/wp-content/uploads/Arduino_KY-006_Keyes_Passive_buzzer_module_connection_diagram.png)
 
 ## Raspberry Pi
 
