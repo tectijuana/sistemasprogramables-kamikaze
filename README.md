@@ -221,11 +221,17 @@ El módulo KY-012 Active Buzzer consta de un zumbador piezoeléctrico activo, qu
 ## DIAGRAMA DE CONEXIÓN KY-012
 Conecte la señal (S) al pin 8 del Arduino y tierra (-) a GND. Tenga en cuenta que algunas placas están mal etiquetadas, intente invertir los cables si no puede escuchar ningún sonido al ejecutar el boceto.
 
+### arduino
 | KY-012 | arduino |
 |--------|---------|
 | S      | pin 8   |
 | -      | GND     |
 
+### raspberry pi
+| Sensor Signal | = GPIO24 | Pin 18 |
+|---------------|----------|--------|
+| Sensor [+V]   | = 3.3V   | Pin 1  |
+| Sensor GND    | = GND    | Pin 6  |
 ![alt text](https://arduinomodules.info/wp-content/uploads/Arduino_KY-012_Keyes_Active_buzzer_module_connection_diagram.png "KY-012 diagrama de conexion")
 
 ## ¿Qué es un buzzer o zumbador?
