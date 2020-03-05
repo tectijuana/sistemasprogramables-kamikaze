@@ -35,6 +35,8 @@ Puede controlar la sensibilidad ajustando el potenciómetro.
 ![alt text](http://sensorkit.en.joy-it.net/images/d/de/sens-poti.jpg "fun-sen")
 
 ## Codigo Ejemplo en Arduino
+El programa lee el valor de voltaje actual que se medirá en el pin de salida y lo muestra a través de la interfaz en serie.
+Además de eso, el estado del pin digital se mostrará en el terminal, lo que significa si se superó o no el valor extremo.
 ```C++
 // Declaration and initialization of the input pin
 int Analog_Eingang = A0; // X-axis-signal
@@ -84,6 +86,8 @@ void loop ()
 | Señal analógica |  Pin 0  |  
 
 ## Codigo Ejemplo en Raspberry Pi
+El programa lee los valores actuales de los pines de entrada y los emite en el terminal en [mV].
+Además de eso, el estado del pin digital se mostrará en la terminal para mostrar si se superó o no el valor extremo.
 ```Python
 #############################################################################################################
 ### Copyright by Joy-IT
