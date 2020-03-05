@@ -511,6 +511,8 @@ except KeyboardInterrupt:
 
 El módulo KY-012 Active Buzzer consta de un zumbador piezoeléctrico activo, que genera un sonido de aproximadamente 2,5 kHz cuando la señal es alta. 
 
+## Especificaciones
+
 | Tensión de funcionamiento      | 3.5V ~ 5.5V                       |
 |--------------------------------|-----------------------------------|
 | Corriente máxima               | 30mA / 5VDC                       |
