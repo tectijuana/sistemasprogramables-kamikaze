@@ -6,13 +6,12 @@ sistemasprogramables-kamikaze created by GitHub Classroom
 <a href="https://cooltext.com"><img src="https://images.cooltext.com/5387875.png" width="921" height="115" alt=" Sensores de sonido: micrófono" /></a>
 <br />Image by <a href="https://cooltext.com">Cool Text: Free Logos and Buttons</a> - <a href="https://cooltext.com/Edit-Logo?LogoID=3509961347">Create An Image Just Like This</a>
 
-| Nombre | Participacion | Calificación |
-|-------------|----------------|--------------|
-| Acevedo Cardona Adelaid Lesdeymariet           |                |              | 
-| Encarnacion Ocampo Gustavo           | Módulo de sensor de micrófono               |              | 
-| Gallardo Dueñas Carlos Ivan           |                |              | 
-| d           |                |              | 
-| d           |                |              | 
+| Nombre                               | Participacion                 | Calificación |
+|--------------------------------------|-------------------------------|--------------|
+| Acevedo Cardona Adelaid Lesdeymariet |                               |              | 
+| Encarnacion Ocampo Gustavo           | Módulo de sensor de micrófono |              | 
+| Gallardo Dueñas Carlos Ivan          | KY-012 Sensor Zumbador Activo |              | 
+| d                                    |                               |              | 
 
 # KY-037 Módulo de sensor de micrófono (alta sensibilidad)
 
@@ -45,4 +44,12 @@ The KY-012 Active Buzzer module consists of an active piezoelectric buzzer, it g
 | Dimensions           | 18.5mm x 15mm [0.728in x 0.591in] |
 
 
+## DIAGRAMA DE CONEXIÓN KY-012
+Conecte la señal (S) al pin 8 del Arduino y tierra (-) a GND. Tenga en cuenta que algunas placas están mal etiquetadas, intente invertir los cables si no puede escuchar ningún sonido al ejecutar el boceto.
 
+| KY-012 | arduino |
+|--------|---------|
+| S      | pin 8   |
+| -      | GND     |
+
+![alt text](https://arduinomodules.info/wp-content/uploads/Arduino_KY-012_Keyes_Active_buzzer_module_connection_diagram.png "KY-012 diagrama de conexion")
