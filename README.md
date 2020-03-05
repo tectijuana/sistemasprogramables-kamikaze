@@ -30,17 +30,17 @@ Este módulo Ky-037 Sensor De Sonido permite detectar cualquier tipo de sonido s
 
 ## ESPECIFICACIONES TÉCNICAS.
 
-1.Modelo: KY-037
-2.Voltaje de funcionamiento: 5 Volts
-3.Salidas: Analógica y digital
-4.Permite ajustar un nivel de umbral de salida
-5.Usa el Micrófono Gao Gan grado, de alta sensibilidad.
-6.Tiene un indicador LED de encendido
-7.Tiene un LED que indica la salida del comparador
-8.Interruptor digital salida (0 / 1)
-9.Temperatura: -40 a +85 °C
-10.Dimensiones: 35 x 15 x 14 mm
-11.Peso: 4 gr
+1. Modelo: KY-037
+2. Voltaje de funcionamiento: 5 Volts
+3. Salidas: Analógica y digital
+4. Permite ajustar un nivel de umbral de salida
+5. Usa el Micrófono Gao Gan grado, de alta sensibilidad.
+6. Tiene un indicador LED de encendido
+7. Tiene un LED que indica la salida del comparador
+8. Interruptor digital salida (0 / 1)
+9. Temperatura: -40 a +85 °C
+10. Dimensiones: 35 x 15 x 14 mm
+11. Peso: 4 gr
 
 ## Pinout
 ![alt text](http://sensorkit.en.joy-it.net/images/d/d8/4_dig_V_G_An_eng.png "pinout")
