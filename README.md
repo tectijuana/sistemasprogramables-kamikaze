@@ -11,7 +11,7 @@ sistemasprogramables-kamikaze created by GitHub Classroom
 | Acevedo Cardona Adelaid Lesdeymariet |                               |              | 
 | Encarnacion Ocampo Gustavo           | KY-037 Módulo de sensor de micrófono |              | 
 | Gallardo Dueñas Carlos Ivan          | KY-012 Sensor Zumbador Activo |              | 
-| d                                    |                               |              | 
+| Portilla Amparan Josue               |                               |              | 
 
 # KY-037 Módulo de sensor de micrófono (alta sensibilidad)
 
