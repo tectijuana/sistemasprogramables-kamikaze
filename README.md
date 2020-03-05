@@ -9,7 +9,8 @@ sistemasprogramables-kamikaze created by GitHub Classroom
 | Nombre | Participacion | Calificación |
 |-------------|----------------|--------------|
 | Acevedo Cardona Adelaid Lesdeymariet           |                |              | 
+| Encarnacion Ocampo Gustavo           |                |              | 
 | d           |                |              | 
 | d           |                |              | 
 | d           |                |              | 
-| d           |                |              | 
+
