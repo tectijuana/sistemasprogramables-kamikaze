@@ -32,16 +32,16 @@ sistemasprogramables-kamikaze created by GitHub Classroom
 
 ![alt text](https://ae01.alicdn.com/kf/Ha4027ff59c964f6395e5110879dd4ac7R.jpg "KY-012 Sensor Zumbador Activo")
 
+El módulo KY-012 Active Buzzer consta de un zumbador piezoeléctrico activo, que genera un sonido de aproximadamente 2,5 kHz cuando la señal es alta. 
 
-The KY-012 Active Buzzer module consists of an active piezoelectric buzzer, it generates a sound of aproximately 2.5kHz when signal is high. 
-| Operating Voltage    | 3.5V ~ 5.5V                       |
-|----------------------|-----------------------------------|
-| Maximum Current      | 30mA / 5VDC                       |
-| Resonance Frequency  | 2500Hz ± 300Hz                    |
-| Minimum Sound Output | 85Db @ 10cm                       |
-| Working Temperature  | -20°C ~ 70°C [-4°F ~ 158°F]       |
-| Storage Temperature  | -30°C ~ 105°C [-22°F ~ 221°F]     |
-| Dimensions           | 18.5mm x 15mm [0.728in x 0.591in] |
+| Tensión de funcionamiento      | 3.5V ~ 5.5V                       |
+|--------------------------------|-----------------------------------|
+| Corriente máxima               | 30mA / 5VDC                       |
+| Frecuencia de resonancia       | 2500Hz ± 300Hz                    |
+| Salida de sonido mínima        | 85Db @ 10cm                       |
+| Temperatura de trabajo         | -20°C ~ 70°C [-4°F ~ 158°F]       |
+| Temperatura de almacenamiento  | -30°C ~ 105°C [-22°F ~ 221°F]     |
+| Dimensiones                    | 18.5mm x 15mm [0.728in x 0.591in] |
 
 
 ## DIAGRAMA DE CONEXIÓN KY-012
