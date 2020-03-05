@@ -26,3 +26,6 @@ sistemasprogramables-kamikaze created by GitHub Classroom
 **LED1:** Muestra que el sensor recibe voltaje.
 **LED2:** Muestra que se detectó un campo magnético.
 
+## Pinout
+![alt text](http://sensorkit.en.joy-it.net/images/d/de/sens-poti.jpg "sens-poti")
+
