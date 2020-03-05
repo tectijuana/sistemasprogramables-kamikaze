@@ -175,7 +175,7 @@ except KeyboardInterrupt:
 
 # Modulo KY-012 Sensor Zumbador Activo
 
-![alt text](https://www.cdmxelectronica.com/wp-content/uploads/modulo-buzzer-activo-modelo-ky-V1.jpg "KY-012 Sensor Zumbador Activo")
+![alt text](https://images-na.ssl-images-amazon.com/images/I/51qTShDPKuL._SY355_.jpg "KY-012 Sensor Zumbador Activo")
 
 El módulo KY-012 Active Buzzer consta de un zumbador piezoeléctrico activo, que genera un sonido de aproximadamente 2,5 kHz cuando la señal es alta. 
 
