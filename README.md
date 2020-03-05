@@ -187,7 +187,7 @@ except KeyboardInterrupt:
 
 # Modulo KY-012 Sensor Zumbador Activo
 
-![alt text](https://ae01.alicdn.com/kf/Ha4027ff59c964f6395e5110879dd4ac7R.jpg "KY-012 Sensor Zumbador Activo")
+![alt text](https://images-na.ssl-images-amazon.com/images/I/71Fu2Fr4f6L._SX425_.jpg "KY-012 Sensor Zumbador Activo")
 
 El módulo KY-012 Active Buzzer consta de un zumbador piezoeléctrico activo, que genera un sonido de aproximadamente 2,5 kHz cuando la señal es alta. 
 
@@ -211,13 +211,13 @@ Conecte la señal (S) al pin 8 del Arduino y tierra (-) a GND. Tenga en cuenta q
 
 ![alt text](https://arduinomodules.info/wp-content/uploads/Arduino_KY-012_Keyes_Active_buzzer_module_connection_diagram.png "KY-012 diagrama de conexion")
 
-##¿Qué es un buzzer o zumbador?
+## ¿Qué es un buzzer o zumbador?
 
 El zumbador o buzzer es un dispositivo electrónico que permite producir diferentes sonidos ya sea de manera continua o de forma intermitente puede ser del mismo tono, este dispositivo lo puedes encontrar en tarjetas electrónicas, computadoras, multimetros, etc.
 
 El modulo KY-012 integra un zumbador activo, este incorpora un oscilador simple por lo que únicamente es necesario suministrar corriente al dispositivo para que emita sonido. La diferencia de un buzzer activo a un pasivo es que el pasivo necesita recibir una onda de frecuencia.
 
-##¿Como funciona un buzzer?
+## ¿Como funciona un buzzer?
 
 Para entender como funciona el KY-012 debes tener encenta como esta construido, este consta de dos elementos, un electroimán o disco piezoeléctrico y una lámina metálica de acero.
 
@@ -229,7 +229,6 @@ Para lograr obtener diferentes sonidos debes elaborar un circuito electrónico o
 
 El siguiente Arduino Sketch activará y desactivará continuamente el zumbador, generando una serie de pitidos cortos y agudos.
 
----
 
 ```c++
  int buzzerPin = 8;   
