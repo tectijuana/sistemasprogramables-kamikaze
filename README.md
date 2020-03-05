@@ -95,7 +95,7 @@ void loop ()
 }
 ```
 **Conecciones al Arduino.**
-| Componente      | Entrada |  
+| KY-037      | Arduino |  
 |-----------------|---------|
 |  Señal digital  |  Pin 3  |
 |        +V       |  Pin 5V |   
@@ -194,7 +194,7 @@ except KeyboardInterrupt:
         GPIO.cleanup()
 ```
 **Conecciones al Raspberry Pi.**
-| Componente      | Entrada  | Pin                       |   
+| KY-037      |  | Raspberry Pi                      |   
 |-----------------|----------|---------------------------|
 | Señal digital   | GPIO24   | Pin 18 (RPi)              |   
 | +V              | 3,3V     | Pin 1 (RPi)               |   
