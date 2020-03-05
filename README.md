@@ -29,6 +29,11 @@ sistemasprogramables-kamikaze created by GitHub Classroom
 ## Pinout
 ![alt text](http://sensorkit.en.joy-it.net/images/d/d8/4_dig_V_G_An_eng.png "pinout")
 
+# Modulo KY-012 Sensor Zumbador Activo
+
+![alt text](https://ae01.alicdn.com/kf/Ha4027ff59c964f6395e5110879dd4ac7R.jpg"KY-012 Sensor Zumbador Activo")
+
+
 The KY-012 Active Buzzer module consists of an active piezoelectric buzzer, it generates a sound of aproximately 2.5kHz when signal is high. 
 | Operating Voltage    | 3.5V ~ 5.5V                       |
 |----------------------|-----------------------------------|
