@@ -11,7 +11,7 @@ sistemasprogramables-kamikaze created by GitHub Classroom
 | Acevedo Cardona Adelaid Lesdeymariet |                               |              | 
 | Encarnacion Ocampo Gustavo           | KY-037 Módulo de sensor de micrófono |              | 
 | Gallardo Dueñas Carlos Ivan          | KY-012 Sensor Zumbador Activo |              | 
-| Portilla Amparan Josue               |                               |              | 
+| d                                    |                               |              | 
 
 # KY-037 Módulo de sensor de micrófono (alta sensibilidad)
 
@@ -54,10 +54,12 @@ Conecte la señal (S) al pin 8 del Arduino y tierra (-) a GND. Tenga en cuenta q
 
 ![alt text](https://arduinomodules.info/wp-content/uploads/Arduino_KY-012_Keyes_Active_buzzer_module_connection_diagram.png "KY-012 diagrama de conexion")
 
-## CÓDIGO DE EJEMPLO KY-012
+## CÓDIGO DE EJEMPLO KY-012 
+
 El siguiente Arduino Sketch activará y desactivará continuamente el zumbador, generando una serie de pitidos cortos y agudos.
+
 ---
-'''arduino
+
  int buzzerPin = 8;   
  void setup ()  
    {  pinMode (buzzerPin, OUTPUT);  }  
@@ -68,4 +70,4 @@ El siguiente Arduino Sketch activará y desactivará continuamente el zumbador, 
    digitalWrite (buzzerPin, LOW);  
    delay (500);  
    } 
- '''
+ 
