@@ -331,7 +331,7 @@ Este módulo Ky-037 Sensor De Sonido permite detectar cualquier tipo de sonido s
 **LED1:** Muestra que el sensor recibe voltaje.
 **LED2:** Muestra que se detectó un campo magnético.
 
-## ESPECIFICACIONES TÉCNICAS.
+## Especificaciones técnicas.
 
 1. Modelo: KY-037
 2. Voltaje de funcionamiento: 5 Volts
